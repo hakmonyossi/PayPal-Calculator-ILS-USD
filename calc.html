@@ -1,0 +1,20 @@
+﻿<html>
+<head>
+<script type="text/javascript" src="ppjs.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="paypalFeesTable">
+
+			<span id="textFees">הכנס מספר לחישוב עמלות</span>
+			<td><input type="text" id="calc" class="textbox" /></td>
+			<td><input type="submit" class="mybutton" name="submit" value="חשב עמלות" onclick="calculatePayPal()" /></td>
+			<td><input type="text" id="result" disabled></td>
+			<td><input type="text" id="receive" disabled></td>
+	</div>
+	<div id="resultsDiv">
+		<div id="howMuchToPay"></div>
+		<div id="howMuchYouGet"></div>
+	</div>
+</body>
+</html>
